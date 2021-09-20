@@ -1,0 +1,28 @@
+/* Daca vrem ca aplicatia sa ocupe intreg viewport-ul. */
+.app {
+  min-height: 100vh;
+}
+
+.app h1 {
+  margin-top: 0;
+  text-align: center;
+}
+.color-container{
+    padding-top: 20px;
+    border-top: 1px solid gray;
+    display: flex;
+    align-items: center;
+}
+.color-container p{
+    margin: 10px;
+}
+.fade{
+    opacity: 100% !important;
+}
+.tab-container{
+    margin: 10px;
+}
+.nav-item.nav-link{
+    margin: 10px;
+    font-size: 20px;
+}
